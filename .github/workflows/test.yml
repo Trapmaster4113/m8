@@ -78,5 +78,5 @@ jobs:
            tlc23/mod8
            tlc23/mod8:${{ github.sha }}
          platforms: linux/amd64,linux/arm64
-         cache-from: type=registry,ref=kaw393939/601_module8:cache
+         cache-from: type=registry,ref=tlc23/mod8:cache
          cache-to: type=inline,mode=max
